@@ -441,8 +441,7 @@ with tab_explorer:
     col_preview, col_desc = st.columns([3, 2])
     with col_preview:
         st.subheader("📋 Dataset Preview (Sample)")
-        st.dataframe(df.style.background_gradient(cmap="Purples", subset=feature_names), use_container_width=True, height=265)
-    with col_desc:
+        st.dataframe(df, use_container_width=True, height=265)
         st.subheader("📝 Dataset Classes")
         class_summary = ", ".join([f"**{name}**" for name in flower_names])
         st.markdown(f"The active dataset contains measurements categorized into the following target classes: {class_summary}.")
