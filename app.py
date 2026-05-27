@@ -335,8 +335,7 @@ with tab_explorer:
     col_preview, col_desc = st.columns([3, 2])
     with col_preview:
         st.subheader("📋 Dataset Preview")
-        st.dataframe(df.style.background_gradient(cmap="Purples", subset=feature_names),
-                     use_container_width=True, height=265)
+        st.dataframe(df, use_container_width=True, height=265)
     with col_desc:
         st.subheader("📝 Dataset Classes")
         class_summary = ", ".join([f"**{n}**" for n in flower_names])
