@@ -618,4 +618,4 @@ st.markdown(
     f"<div style='text-align:center;color:{sub_text_color};font-size:.85rem;'>"
     "Developed with Streamlit · Scikit-learn · Plotly Analytics</div>",
     unsafe_allow_html=True
-)
+        )
