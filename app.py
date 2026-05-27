@@ -32,7 +32,7 @@ st.set_page_config(
     page_title="Universal ML Analytics Playground",
     page_icon="🌸",
     layout="wide",
-    initial_sidebar_state="expanded"
+    initial_sidebar_state="expanded"  # ✅ already correct, config.toml will reinforce it
 )
 
 # =========================================================
