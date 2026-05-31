@@ -5,6 +5,9 @@ An advanced interactive Machine Learning analytics platform built using Streamli
 This project allows users to upload custom datasets, visualize patterns using PCA & 3D graphs, compare multiple ML algorithms, and generate real-time predictions through an elegant dashboard interface.
 
 ---
+# Live Demo
+
+https://universal-ml-analytics-playground-dq9spjocurtmgtqffbkqed.streamlit.app/
 
 # ✨ Features
 
